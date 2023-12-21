@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgb(65, 110, 76), rgb(72, 154, 184));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: rgb(7, 27, 138);
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+}
+h2{
+    color: #fff;
+}
+.header-a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-a:hover{
+    text-decoration: underline;
+}
+.container{
+    padding: 8vw 0 3vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    padding:0 0 1vw 0;
+    color: #fff;
+    font-family: cursive;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 4vw;
+    background: #948d8d;
+    border-radius: 2vw;
+    box-shadow: 2px 5px 8px 2px #bdb3b3,
+    inset 8px 6px 10px 5px #afabab;
+}
+.email-container{
+    padding: 1vw 0 0 0;
+}
+.email{
+    padding: 1vw;
+    background-color: #4d4c4c;
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 600;
+    border-radius: 2vh;
+    border: none;
+    outline: none;
+}
+.password-container{
+    padding: 1vw 0 1vw 0;
+}
+.password{
+    padding: 1vw;
+    background-color: #4d4c4c;
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 600;
+    border-radius: 2vh;
+    border: none;
+    outline: none;
+}
+.signin-button{
+    padding: 2vw 0;
+}
+.signin{
+    padding: 1vw 7.5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 2vh;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(18, 216, 216);
+}
+@media(max-width: 800px){
+    .sub-container{
+        padding: 5vw 8vw;
+    }
+    .email-container{
+        padding-top: 1.5vw;
+    }
+    .email{
+        font-size: 1.3vw;
+    }
+    .password-container{
+        padding-top: 1.5vw;
+    }
+    .password{
+        font-size: 1.3vw;
+    }
+}
+@media(max-width: 550px){
+    header{
+        padding: 2vw 5vw;
+    }
+    .sub-container{
+        padding: 8vw 12vw;
+    }
+    .email-container{
+        padding-top: 4vw;
+    }
+    .email{
+        padding-left: 2vw;
+        font-size: 4vw;
+        border-radius: 1vw;
+    }
+    .password-container{
+        padding-top: 2vw;
+    }
+    .password{
+        padding-left: 2vw;
+        font-size: 4vw;
+        border-radius: 1vw;
+    }
+    .signin-button{
+        padding-top: 4vw;
+    }
+    .signin{
+        font-size: 4vw;
+        padding: 1vw 21vw;
+        border-radius: 1vw;
+    }
+}
